@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wave="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="51dp"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <com.wave.library.view.WaveTextView
+        android:id="@+id/waveTextView"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        wave:textColor="@color/colorAccent"
+        wave:textSize="17sp"
+        wave:waveSpeed="1"
+        wave:waveAmplitudes="20"
+        wave:text="Hello World"
+        wave:autoStart="true"
+        android:gravity="center"/>
+
+</LinearLayout>

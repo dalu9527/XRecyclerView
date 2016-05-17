@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">xlibs</string>
+    <string name="refreshing">正在刷新</string>
+    <string name="loadingmore">正在加载</string>
+</resources>
